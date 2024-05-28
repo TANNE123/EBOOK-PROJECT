@@ -1,1407 +1,1327 @@
-    .e_book {
-    position: relative;
-    width: 100vw;
-    height: 950px;
-    /* overflow: hidden; */
-    /* border: 2px solid black; */
-    }
-    .navbar {
-    position: absolute;
-    top: 0;
-    width: 100vw;
-    z-index: 1;
-    background-color:transparent !important;
-    
-    }
-    
+.e_book {
+  position: relative;
+  width: 100vw;
+  height: 950px;
+}
 
-    #busines_img img{
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    z-index: -1;
-    }
+#busines_img > .rajesh img {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+#busines_img > .rajesh .font {
+  position: absolute;
+  top: 25px;
+  left: 100px;
+}
 
-    #ebook_intro {
-    position: absolute;
-    top: 30%;
-    left: 10%;
-    color: orange;
-    font-family: "Lato", sans-serif;
-    font-weight: bold;
-    font-size: 30px;
-    }
-    #ebook_page{
-    position: absolute;
-    top: 35%;
-    left: 10%;
-    font-family: "Lato", sans-serif;
-    font-weight: bold;
-    color: white;
-    font-size: 40px;
-   
-    }
-    #ebook_more{
-    position: absolute;
-    top: 50%;
-    left: 10%;
-    border: 2px solid orange;
-    padding-left: 10px;
-    padding-top: 5px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-    border-radius: 20px;
-    background-color: orange;
-    font-weight: bolder;
-    color: white;
-    font-family: "Lato", sans-serif;
-    
-    }
-    #ebook_meet{
-    position: absolute;
-    top: 51%;
-    left: 300px;
-    font-family: "Lato", sans-serif;
-    font-weight: bold;
-    color: white;
-   
-    }
-    #busines_img > #ebook_online{
-        position: absolute;
+#busines_img img {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
 
-    }
-    #ebook_online img{
-    position: absolute;
-    right: 15%;
-    bottom: -3%;
-    width: 35%;
-    height: 600px ;
-    }
-    #ebook_orange{
-        position: absolute;
-        width: 75%;
-        height: 180px;
-        background-color: orange;
-        z-index: -1;
-        
-    }
-    .font{
-        font-size: 35px;
-        font-weight: bold;
-        font-family: "Lato", sans-serif;
-        color: rgb(139, 121, 121);
-    }
-    #woman_img img{
-        position: absolute;
-        bottom: 9.5%;
-        left: 10%;
-        width: 80px;
-        height: 80px;
-        border-radius: 50%;
-        border: 5px solid white;
-        
-        
-    }
-   #man_img img{
-        position: absolute;
-        bottom: 9.5%;
-        left: 14%;
-        width: 80px;
-        height: 80px;
-        border: 5px solid white;
-        border-radius: 50%;
-       
-    }
-    #woman_img2 img{
-        position: absolute;
-        bottom: 9.5%;
-        left: 18%;
-        width: 80px;
-        height: 80px;
-        border: 5px solid white;
-        border-radius: 50%;
-        
-    }
-    #man_img2 img{
-        position: absolute;
-        bottom: 9.5%;
-        left: 22%;
-        width: 80px;
-        height: 80px;
-        border: 5px solid white;
-        border-radius: 50%;
-        
-    }
-    #ebook_rating{
-        position: absolute;
-        bottom: 10.5%;
-        left: 30%;
-        font-size: 35px;
-        font-weight: bold;
-        font-family: "Lato", sans-serif;
-       
-    }
-    .ebook_rating img{
-        position: absolute; 
-        bottom:6.4%;
-        left: 34%;
-        width: 150px;
-        height: 130px;
-        
-    }
-    #rating_rws{
-        position: absolute;
-        bottom: 11.3%;
-        left: 44.5%;
-        font-size: 20px;
-        font-family: "Lato", sans-serif;
-        
-    }
-        /* first_page_table_page_start */
+#ebook_intro {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  color: orange;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+#ebook_page {
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 40px;
+}
+#ebook_more {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  border: 2px solid orange;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  border-radius: 20px;
+  background-color: orange;
+  font-weight: bolder;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+#ebook_meet {
+  position: absolute;
+  top: 51%;
+  left: 300px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+#busines_img > #ebook_online {
+  position: absolute;
+}
+#ebook_online img {
+  position: absolute;
+  right: 15%;
+  bottom: -3%;
+  width: 35%;
+  height: 600px;
+}
+#ebook_orange {
+  position: absolute;
+  width: 75%;
+  height: 180px;
+  background-color: orange;
+  z-index: -1;
+}
+.font {
+  font-size: 35px;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  color: rgb(139, 121, 121);
+}
+#woman_img img {
+  position: absolute;
+  bottom: 9.5%;
+  left: 10%;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+#man_img img {
+  position: absolute;
+  bottom: 9.5%;
+  left: 14%;
+  width: 80px;
+  height: 80px;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+#woman_img2 img {
+  position: absolute;
+  bottom: 9.5%;
+  left: 18%;
+  width: 80px;
+  height: 80px;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+#man_img2 img {
+  position: absolute;
+  bottom: 9.5%;
+  left: 22%;
+  width: 80px;
+  height: 80px;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+#ebook_rating {
+  position: absolute;
+  bottom: 10.5%;
+  left: 30%;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+}
+.ebook_rating img {
+  position: absolute;
+  bottom: 6.4%;
+  left: 34%;
+  width: 150px;
+  height: 130px;
+}
+#rating_rws {
+  position: absolute;
+  bottom: 11.3%;
+  left: 44.5%;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+}
+/* first_page_table_page_start */
 
+.tablet_page {
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
 
-        .tablet_page{
-            width: 100%;
-            height: 600px;
-            position: relative;
-      }
+.tablet_1 img {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  width: 50%;
+  height: 80%;
+}
 
+.tablet_2 {
+  position: absolute;
+  top: 20%;
+  left: 60%;
+  width: 35%;
+  height: 90%;
+}
 
-      .tablet_1 img{
-        position: absolute;
-        left: 10%;
-        top: 10%;
-        width: 50%;
-        height: 80%;
-        
-      }
+#tablet_creative {
+  position: absolute;
+  top: 0%;
+  left: 5%;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  color: orange;
+  font-size: 20px;
+}
 
+mark {
+  background-color: white;
+  color: red;
+}
 
-      .tablet_2{
-        position: absolute;
-        top: 20%;
-        left: 60%;
-        width: 35%;
-        height: 90%;
-      }
+#tablet_book {
+  position: absolute;
+  top: 8%;
+  left: 5%;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
 
-
-      #tablet_creative{
-            position: absolute;
-            top: 0%;
-            left: 5%;
-            font-family: "Lato", sans-serif;
-            font-weight: bold;
-            color: orange;
-            font-size: 20px;
-        }
-
-
-        mark{
-            background-color: white;
-            color:red;
-        }
-
-
-         #tablet_book{
-            position: absolute;
-            top: 8%;
-            left: 5%;
-            font-family: "Lato", sans-serif;
-            font-weight: bold;
-            font-size: 40px;
-            
-        }
-
-
-        #tablet_content{
-            position: absolute;
-            top: 20%;
-            left: 5%;
-            font-family: "Lato", sans-serif;
-            font-size: 20px;
-            text-align: justify;
-        }
+#tablet_content {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  text-align: justify;
+}
 /* .second_page__start */
 
-.second_page{
-    width: 100%;
-    height: 100px;
-    margin-top: 1px;
-    text-align: center;
+.second_page {
+  width: 100%;
+  height: 100px;
+  margin-top: 1px;
+  text-align: center;
 }
 
-
-.second_page p{
-    color: orange;
-    font-weight: bold;
-    font-family: "Lato", sans-serif;
-    font-size: 20px;
+.second_page p {
+  color: orange;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
 }
 
-
-.second_page h2{
-    color: black;
-    font-weight: bold;
-    font-family: "Lato", sans-serif;
-    font-size: 40px;
-    line-height: 4%;
-}
- /* .second-page-intro */
- .second-page-intro{
-    position: relative;
-    width: 100%;
-    height: 600px;
-}
-
-
-/* .second-page-left */
-#intro_left{
-    position: absolute;
-    top: 10%;
-    left: 10%;
-    width: 300px;
-    height: 450px;
-    border: 2px solid red;
-    border-radius: 20px;
-}
-
-
-#chapter{
-    position: absolute;
-    top: 10%;
-    left: 15%;
-    text-align: center;
-    padding-left: 5%;
-    padding-right: 35%;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    background-color: aliceblue;
-    font-family: "Lato", sans-serif;
-    font-size: 20px;
-    border-radius: 20px;
-}
-
-
-#chapter1{
-    position: absolute;
-    top: 24%;
-    left: 15%;
-    text-align: center;
-    padding-left: 5%;
-    padding-right: 8.5%;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    background-color: aliceblue;
-    font-family: "Lato", sans-serif;
-    font-size: 20px;
-    border-radius: 20px;
-}
-
-
-#chapter2{
-    position: absolute;
-    top: 44%;
-    left: 15%;
-    text-align: center;
-    padding-left: 5%;
-    padding-right: 20.5%;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    background-color: aliceblue;
-    font-family: "Lato", sans-serif;
-    font-size: 20px;
-    border-radius: 20px;
-}
-
-
-#Chapter3{
-    position: absolute;
-    top: 64%;
-    left: 15%;
-    text-align: center;
-    padding-left: 5%;
-    padding-right: 11%;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    background-color: aliceblue;
-    font-family: "Lato", sans-serif;
-    font-size: 20px;
-    border-radius: 20px;
-}
-
-
-#Chapter4{
-    position: absolute;
-    top: 79%;
-    left: 15%;
-    text-align: center;
-    padding-left: 5%;
-    padding-right: 19%;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    background-color: aliceblue;
-    font-family: "Lato", sans-serif;
-    font-size: 20px;
-    border-radius: 20px;
-}
-
-
-/* second-page-right */
-.intro_right{
-    position: absolute;
-    top: 12%;
-    left: 40%;
-    width: 50%;
-    height: 65%;
-    
-}
-
-
-#right-head{
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    font-family: "Lato", sans-serif;
-    font-weight: bold;
-    font-size: 25px;
-
-}
-
-
-#right_p{
-    position: absolute;
-    top: 16%;
-    left: 5%;
-    font-family: "Lato", sans-serif;
-    font-size: 20px;
-    text-align: justify;
-
-}
-
-
-#right_p2{
-    position: absolute;
-    top: 34%;
-    left: 5%;
-    font-family: "Lato", sans-serif;
-    font-size: 20px;
-}
-
-
-#right_quotation_mark img{
-    position: absolute;
-    top: 54%;
-    left: 44%;
-    width: 40px;
-    height: 40px;
-    z-index: 1  ;
-}
-
-
-#right_mark_p3{
-    position: absolute;
-    top: 51%;
-    left: 5%;
-    padding: 8%;
-    padding-left: 17%;
-    padding-right: 17%;
-    font-size: 20px;
-    background-color: aliceblue;
-    text-align: center;
-}
-
-
-#right_p4{
-    position: absolute;
-    top: 80%;
-    left: 42.5%;
-    font-family: "Lato", sans-serif;
-    font-size: 20px;
-}
-
-       /* .second_page_end */
-        .second_page_end{
-            position: relative;
-            width: 100%;
-            height: 500px;
-           
-        }
-
-
-        #second_left_end{
-            position: absolute;
-            width: 40%;
-            height: 500px;
-            
-        }
-
-
-        #circle_img img{
-            width: 90%;
-            height: 100%;
-        }
-
-
-        #smile_img img{
-            position: absolute;
-            top: 20%;
-            left: 50%;
-            width: 44%;
-            height: 50%;
-            border-radius: 50%;
-            border: 5px solid orange;
-        }
-
-
-        #second_right_end{
-            position: absolute;
-            top: 0%;
-            left: 50%;
-            width: 40%;
-            height: 500px;
-           
-        }
-
-
-        #meet1_right{
-            position: absolute;
-            top: 20%;
-            left: 10%;
-            font-weight: bold;
-            font-family: "Lato", sans-serif;
-            color: orange;
-            font-size: 20px;
-
-        }
-
-
-        #prof_right{
-            position: absolute;
-            top: 26%;
-            left: 10%;
-            font-weight: bold;
-            font-family: "Ubuntu Sans", sans-serif;
-            font-size: 40px;
-
-        }
-
-        #content_p_right{
-            position: absolute;
-            top: 40%;
-            left: 10%;
-            font-family: "Ubuntu Sans", sans-serif;
-            font-size: 18px;
-
-        }
-        #content_p2_right{
-            position: absolute;
-            top: 55%;
-            left: 10%;
-            font-family: "Ubuntu Sans", sans-serif;
-            font-size: 18px;
-        }
-         /* third_page_intro */
-         .third_page_intro{
-            position: relative;
-            width: 100%;
-            height: 100px;
-           
-        }
-        #review_third_page{
-            position: absolute;
-            top: 5%;
-            left: 48%;
-            font-family: "Lato", sans-serif;
-            font-size: 20px;
-            color: orange;
-            font-weight: bold;
-        }
-        #people_third_page{
-            position: absolute;
-            top: 40%;
-            left: 38%;
-            font-family: "Lato", sans-serif;
-            font-size: 40px;
-            font-weight: bold;
-        }
-        .third_page_boxs{
-            position: relative;
-            width: 100%;
-            height: 500px;
-            
-          }
-          /* first_box */
-          .third_box1 {
-            position: absolute;
-            top: 8.5%;
-            left: 13%;
-            width: 300px;
-            height: 400px;
-            
-      
-          }
-          #box1_img img{
-            position: absolute;
-            top: 0%;
-            left: 0%;
-            width: 100%;
-            height: 100%;
-            border-radius: 20px;
-            opacity: 1;
-      
-          }
-          #red_box1 {
-            position: absolute;
-            top: 0%;
-            left: 25%;
-            width: 50%;
-            height: 50%;
-            background-color: red;
-            border-bottom-left-radius: 20px;
-            border-bottom-right-radius: 20px;
-            opacity: 0.7;
-          }
-          #box_woman_img img{
-            position: absolute;
-            top: 7%;
-            left: 38%;
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            border: 4px solid white;
-      
-          }
-          #box_sandy{
-            position: absolute;
-            top: 28%;
-            left: 38%;
-            font-size: 25px;
-            font-family: "Lato", sans-serif;
-            color: white;
-          }
-          #box1_rating{
-            position: absolute;
-            top: 60%;
-            left:10% ;
-            font-size: 30px;
-            font-weight: bold;
-            font-family: "Lato", sans-serif;
-            color: white;
-          }
-          #box_rating_img img{
-            position: absolute;
-            top: 51.5%;
-            left: 27%;
-            width: 100px;
-            height: 100px;
-          }
-          #box1_matter{
-            position: absolute;
-            top: 70%;
-            left:10% ;
-            font-size: 20px;
-            font-family: "Lato", sans-serif;
-            color: white;
-          }
-          
-          /* second box */
-          .third_box2{
-            position: absolute;
-            top: 8.5%;
-            left: 40%;
-            width: 300px ;
-            height: 400px;
-          }
-          #box2_img img{
-            position: absolute;
-            top: 0%;
-            left: 0%;
-            width: 100%;
-            height: 100%;
-            border-radius: 20px;
-            opacity: 0.9;
-          }
-          #red_box2 {
-            position: absolute;
-            top: 0%;
-            left: 25%;
-            width: 50%;
-            height: 50%;
-            background-color: red;
-            border-bottom-left-radius: 20px;
-            border-bottom-right-radius: 20px;
-            opacity: 0.7;
-          }
-          #box_man_img img{
-            position: absolute;
-            top: 7%;
-            left: 38%;
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            border: 4px solid white;
-      
-          }
-          #box_john{
-            position: absolute;
-            top: 28%;
-            left: 34%;
-            font-size: 25px;
-            font-family: "Lato", sans-serif;
-            color: white;
-          }
-          #box2_rating{
-            position: absolute;
-            top: 60%;
-            left:10% ;
-            font-size: 30px;
-            font-weight: bold;
-            font-family: "Lato", sans-serif;
-            color: white;
-      
-          }
-          #box2_img_rating img{
-            position: absolute;
-            top: 51.5%;
-            left: 27%;
-            width: 100px;
-            height: 100px;
-          
-          }
-          #box2_matter{
-            position: absolute;
-            top: 70%;
-            left:10% ;
-            font-size: 20px;
-            font-family: "Lato", sans-serif;
-            color: white;
-          }
-          
-          /* third_box */
-          .third_box3{
-            position: absolute;
-            top: 8.5%;
-            left: 67%;
-            width: 300px;
-            height: 400px;
-           
-          }
-          #box3_img img{
-            position: absolute;
-            top: 0%;
-            left: 0%;
-            width: 100%;
-            height: 100%;
-            border-radius: 20px;
-            opacity: 0.9;
-          }
-          #red_box3 {
-            position: absolute;
-            top: 0%;
-            left: 25%;
-            width: 50%;
-            height: 50%;
-            background-color: red;
-            border-bottom-left-radius: 20px;
-            border-bottom-right-radius: 20px;
-            opacity: 0.7;
-          }
-          #box_man_img img{
-            position: absolute;
-            top: 7%;
-            left: 38%;
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            border: 4px solid white;
-      
-          } 
-          #box_pretty_woman_img img{
-            position: absolute;
-            top: 7%;
-            left: 38%;
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            border: 4px solid white;
-      
-          }
-          #box_candy{
-            position: absolute;
-            top: 28%;
-            left: 31%;
-            font-size: 25px;
-            font-family: "Lato", sans-serif;
-            color: white;
-          }
-          #box3_rating{
-            position: absolute;
-            top: 60%;
-            left:10% ;
-            font-size: 30px;
-            font-weight: bold;
-            font-family: "Lato", sans-serif;
-            color: white;
-          }
-          #box3_img_rating img{
-            position: absolute;
-            top: 51.5%;
-            left: 20%;
-            width: 100px;
-            height: 100px;
-          }
-          #box3_matter{
-            position: absolute;
-            top: 70%;
-            left:10% ;
-            font-size: 20px;
-            font-family: "Lato", sans-serif;
-            color: white;
-          }
-
-          /* third_page_end */
-
-          .end_third_page{
-            position:relative;
-            width: 100%;
-            height: 600px;
-            background-color: rgb(253, 163, 99,1.5);            
-          }
-          #white_cutting{
-            position: absolute;
-            width: 30%;
-            height: 70%;
-            background-color: white;
-            clip-path: polygon(0% calc(100% - 100%),calc(100% - 100%) 0%,
-                  100% calc(100% - 100%),
-                  100%  0%,
-                  0% 100%);
-      
-          }
-          /* third--content--left */
-           #end_form_left{
-            position: absolute;
-            top: 20%;
-            left: 10%;
-            width:350px;
-            height: 400px;
-            border: 2px solid red;
-            margin-top: -19px;
-            background-color: white;
-            border-radius: 20px;
-          }
-          #left_get_ebook{
-            position: absolute;
-            top: 10%;
-            left: 18%;
-            font-size: 40px;
-            font-weight: bolder;
-            font-family: "Lato", sans-serif;
-            
-            
-          }
-          #your_name{
-            position: absolute;
-            top: 39%;
-            left: 15%;
-            
-          }
-          #company_mail{
-            position: absolute;
-            top: 55%;
-            left: 15%;
-          }
-          input{
-            border-radius: 20px;
-            width: 100%;
-            height: 40px;
-            font-size: 20px;
-            border: 1px solid slategrey;
-          }
-          #Download_button button{
-            position: absolute;
-            top: 75%;
-            left: 17%;
-            font-size: 20px;
-            font-weight: bold;
-            padding: 10px;
-            padding-right: 40px;
-            padding-left: 20px;
-            border-radius: 30px;
-            font-family: "Lato", sans-serif;
-            background-color: orange;
-            color: white;
-            border: none;
-          }
-      
-          /* .end_contact_right */
-      
-          .end_contact_right{
-            position: absolute;
-            top: 20%;
-            left: 50%;
-            width: 25%;
-            height: 400px;
-            
-          }
-          #right_say_hi{
-            position: absolute;
-            top: 15%;
-            left: 10%;
-            font-family: "Lato", sans-serif;
-            font-weight: bold;
-            font-size: 20px;
-            color: rgb(218, 144, 6);
-          }
-          #right_contact{
-            position: absolute;
-            top: 22%;
-            left: 10%;
-            font-family: "Lato", sans-serif;
-            font-weight: bold;
-            font-size: 30px;
-          }
-          #right_location img{
-            position: absolute;
-            top: 33%;
-            left: 10%;
-            width: 25px;
-            height: 25px;
-          }
-          #right_london{
-            position: absolute;
-            top: 34%;
-            left: 19%;
-            font-family: "Lato", sans-serif;
-            color: white;
-            font-size: 17px;
-          }
-          #right_number{
-            position: absolute;
-            top: 43%;
-            left: 11%;
-            font-size: 23px;
-            color: white;
-          }
-          #right_info{
-            position: absolute;
-            top: 52%;
-            left: 10%;
-            font-family: "Lato", sans-serif;
-            font-size: 20px;
-            color: white;
-          }
-          #right_social{
-            position: absolute;
-            top: 70%;
-            left: 10%;
-            font-family: "Lato", sans-serif;
-            font-size: 25px;
-            color: rgb(164, 109, 8);
-            font-weight: bold;
-      
-          }
-          #instagram img{
-            position: absolute;
-            top: 80%;
-            left: 10%;
-            width: 40px;
-            height: 40px;
-            background-color: white;
-            border-radius: 50%;
-          }
-          #twitter img{
-            position: absolute;
-            top: 80%;
-            left: 25%;
-            width: 40px;
-            height: 40px;
-          }
-          #facebook img{
-            position: absolute;
-            top: 80%;
-            left: 40%;
-            width: 40px;
-            height: 40px;
-          }
-          #whatsapp img{
-            position: absolute;
-            top: 80%;
-            left: 55%;
-            width: 40px;
-            height: 40px;
-          }
-          #Copyright{
-            position: absolute;
-            top: 95%;
-            left: 10%;
-            font-family: "Lato", sans-serif;
-            font-size: 18px;
-            color: white;
-          }
-          #designed{
-            position: absolute;
-            top: 103%;
-            left: 10%;
-            font-family: "Lato", sans-serif;
-            font-size: 18px;
-            color:rgb(195, 63, 63,0.8);
-          }
-      
-
-
-
-
-
-
-
-
-
-@media (width < 700px) {
-    #ebook_intro {
-        left: 5%;
-        font-size:20px ;
-    }
-    #busines_img img{
-      height: 80vh;
-      
-      }
-    #ebook_page{
-    left: 5%;
-    font-size: 25px;
-    }
-    #ebook_more{  
-    left: 5%;
-    top: 45%;
-    }
-    #ebook_meet{
-    top: 50%;
-    left: 5%; 
-    }
-    #ebook_online img{
-        height: 500px;
-        width: 40%;
-        right: 3%;
-        top: 34%;
-        
-        }
-    #woman_img img{
-        top: 66%;
-        left: 0%;
-
-    }
-    #man_img img{
-        top: 66%;
-        left: 40px;
-    }
-    #woman_img2 img{
-        top: 66%;
-        left: 80px;
-        
-    }
-    #man_img2 img{
-        top: 66%;
-        left: 120px;
-       
-    }
-    #ebook_rating{
-        /* bottom: 4.6%; */
-        top: 75%;
-        left: 5%;
-        font-size: 25px;
-    }
-    .ebook_rating img{
-        /* bottom: 3%; */
-        top: 73%;
-        left: 17%;
-        width: 70px;
-        height: 70px;
-    }
-    #rating_rws{
-        /* bottom: 5.5%; */
-        top: 76%;
-        left: 40%;
-        font-size: 10px;
-    }
-    .g{
-        border: none !important;
-    }
-
-
-    /* <!-- first_page_end_part --> */
-    .tablet_page{
-        width: 100%;
-        height: 1000px !important;
-        margin-top: 40px;
-    }
-
-
-    .tablet_1 img{
-        left: 0%;
-        top: 0%;
-        width: 80%;
-        height: 40%;
-    }
-
-
-    .tablet_2{
-        top: 40%;
-        left: 0%;
-        width: 100%;
-        height: 40%;
-    }
-
-
-    #tablet_creative{
-        top: 5%;
-        left: 5%;
-    }
-
-
-    #tablet_book{
-        top: 20%;
-        left: 5%;
-    }
-
-
-    #tablet_content{
-        top: 50%;
-        left: 5%;
-    }
- /* .second_page */
- .second_page{
-    height: 200px;
-}
-
-
-.second_page h2{
-    line-height:normal;
+.second_page h2 {
+  color: black;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  font-size: 40px;
+  line-height: 4%;
 }
 /* .second-page-intro */
-   .second-page-intro{
-      width: 100%;
-      height: 1200px;
-      
-     
-  }
-
-
-       #intro_left{
-            top: 5%;
-            left: 5%;
-        }
-
-       .intro_right{
-            width: 100%;
-            height: 600px;
-            top: 40%;
-            left: 0%;
-        }
-
-
-        #right-head{
-            top: 8%;
-            left: 5%;
-        }
-
-
-        #right_p2{
-            top: 35%;
-            left: 3%;
-            padding:3%;
-            text-align: justify;
-        }
-
-
-        #right_quotation_mark img{
-            width: 20px;
-            height: 20px;
-            top: 60%;
-        }
-
-
-        #right_mark_p3{
-            top: 59%;
-            left: 5%;
-            padding-left: 10% !important;
-            padding-right: 10% !important;
-        }
-
-
-        #right_p4{
-            top: 85%;
-            left: 5%;
-        }
-
-
-        /* .second_page_end */
-        .second_page_end{
-            width: 100%;
-            height: 1000px;
-        }
-
-
-        #second_left_end{
-            width: 100%;
-            top: 0%;
-            left: 0%;
-        }
-
-
-        #second_right_end{
-            width: 100%;
-            top: 52%;
-            left: 0%;
-        }
-
-
-        #meet1_right{
-            top: 20%;
-            left: 5%;
-        }
-
-
-        #prof_right{
-            top: 26%;
-            left: 5%;
-        }
-
-
-        #content_p_right{
-            top: 40%;
-            left: 5%;
-        }
-
-
-          #content_p2_right{
-            top: 60%;
-            left: 5%;
-          }
-
-
-        /* .third_page_intro--css */
-          .third_page_intro{
-            width: 100%;
-            height: 150px;
-          }
-
-
-         #review_third_page{
-            top: 20%;
-            left: 40%;
-          }
-
-
-          #people_third_page{
-            top: 40%;
-            left:5%;
-            font-size: 30px;
-          }
-
-
-          .third_page_boxs{
-            height: 1300px !important;
-          }
-
-
-          .third_box1{
-            top: 2%;
-            left: 8%;
-            width: 300px;
-            height: 400px;
-          }
-
-
-          .third_box2{
-            top: 35%;
-            left: 8%;
-            width: 300px;
-            height: 400px;
-          }
-
-
-          .third_box3{
-            top: 68%;
-            left: 8%;
-            width: 300px;
-            height: 400px;
-          }
-
-
-          /* third--page--end */
-          .end_third_page{
-            width: 100vw;
-            height: 900px;
-          }
-
-
-          #end_form_left{
-            top: 4%;
-            left:   5%;
-            width: 300px !important;
-          }
-          #left_get_ebook{
-            left: 24%;
-            font-size: 30px;
-          }
-
-
-          .end_contact_right{
-              width: 100%;
-              left: 0%;
-              top: 50%;
-          }
-            
-
-
-
+.second-page-intro {
+  position: relative;
+  width: 100%;
+  height: 600px;
 }
-    @media (width > 700px) and (width < 1000px) {
-        #ebook_page{
-            left: 10%;
-            font-size: 30px;
-            }
-        #ebook_meet{
-            left: 30%;
-             
-            }
-        #ebook_more{ 
-            top: 47%;
-            }
-        #ebook_meet{
-            top: 48%;
-             
-            }
-        
-        #ebook_rating{
-            bottom: 4.6%;
-            left: 10%;
-            }
-        .ebook_rating img{
-            bottom: 2%;
-            left: 17%;
-            width: 100px;
-            height: 100px;
-            }  
-        #rating_rws{
-            bottom: 5.8%;
-            left: 30%;
-            font-size: 15px;
-            }  
-            .g{
-            border: none !important;
-            } 
-        .tablet_1 img{
-            left: 0%;
-            top: 0%;
-            width: 40%;
-            /* height: 40%; */
-            } 
-        .tablet_2{
-            top: 20%;
-            left: 40%;
-            width: 60%;
-            
-            } 
-        .tablet_page{
-            height: 500px     
-    }
-    .second-page-intro{
-      height: 1400px;
-     
-    }
 
-    #intro_left{
-        left: 30%;
-        top: 5%;
-    }
-    .intro_right{
-      top: 40%;
-      left: 20%;
-      width: 70%;
-      height: 700px;
-      
-    }
-    #right_p4{
-      top: 80%;
-      left: 20%;
-    }
-    .second_page_end{
-      width: 100%;
-      height: 1000px;
+/* .second-page-left */
+#intro_left {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 300px;
+  height: 450px;
+  border: 2px solid red;
+  border-radius: 20px;
+}
+
+#chapter {
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 35%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background-color: aliceblue;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  border-radius: 20px;
+}
+#chapter1 {
+  position: absolute;
+  top: 24%;
+  left: 15%;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 8.5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background-color: aliceblue;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+#chapter2 {
+  position: absolute;
+  top: 44%;
+  left: 15%;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 20.5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background-color: aliceblue;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+#Chapter3 {
+  position: absolute;
+  top: 64%;
+  left: 15%;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 11%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background-color: aliceblue;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+#Chapter4 {
+  position: absolute;
+  top: 79%;
+  left: 15%;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 19%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background-color: aliceblue;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+/* second-page-right */
+.intro_right {
+  position: absolute;
+  top: 12%;
+  left: 40%;
+  width: 50%;
+  height: 65%;
+}
+
+#right-head {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#right_p {
+  position: absolute;
+  top: 16%;
+  left: 5%;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  text-align: justify;
+}
+
+#right_p2 {
+  position: absolute;
+  top: 34%;
+  left: 5%;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+}
+
+#right_quotation_mark img {
+  position: absolute;
+  top: 54%;
+  left: 44%;
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+}
+
+#right_mark_p3 {
+  position: absolute;
+  top: 51%;
+  left: 5%;
+  padding: 8%;
+  padding-left: 17%;
+  padding-right: 17%;
+  font-size: 20px;
+  background-color: aliceblue;
+  text-align: center;
+}
+
+#right_p4 {
+  position: absolute;
+  top: 80%;
+  left: 42.5%;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+}
+
+/* .second_page_end */
+.second_page_end {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  /* border: 5px solid; */
+}
+
+#second_left_end {
+  position: absolute;
+  width: 40%;
+  height: 500px;
+}
+
+#circle_img img {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+}
+
+#smile_img img {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  width: 44%;
+  height: 50%;
+  border-radius: 50%;
+  border: 5px solid orange;
+}
+
+#second_right_end {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  width: 40%;
+  height: 500px;
+}
+
+#meet1_right {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  color: orange;
+  font-size: 20px;
+}
+
+#prof_right {
+  position: absolute;
+  top: 26%;
+  left: 10%;
+  font-weight: bold;
+  font-family: "Ubuntu Sans", sans-serif;
+  font-size: 40px;
+}
+
+#content_p_right {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  font-family: "Ubuntu Sans", sans-serif;
+  font-size: 18px;
+}
+#content_p2_right {
+  position: absolute;
+  top: 55%;
+  left: 10%;
+  font-family: "Ubuntu Sans", sans-serif;
+  font-size: 18px;
+}
+/* third_page_intro */
+.third_page_intro {
+  position: relative;
+  width: 100%;
+  height: 100px;
+}
+#review_third_page {
+  position: absolute;
+  top: 5%;
+  left: 48%;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  color: orange;
+  font-weight: bold;
+}
+#people_third_page {
+  position: absolute;
+  top: 40%;
+  left: 38%;
+  font-family: "Lato", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+.third_page_boxs {
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+/* first_box */
+.third_box1 {
+  position: absolute;
+  top: 8.5%;
+  left: 13%;
+  width: 300px;
+  height: 400px;
+}
+#box1_img img {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  opacity: 1;
+}
+#red_box1 {
+  position: absolute;
+  top: 0%;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+  background-color: red;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  opacity: 0.7;
+}
+#box_woman_img img {
+  position: absolute;
+  top: 7%;
+  left: 38%;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 4px solid white;
+}
+#box_sandy {
+  position: absolute;
+  top: 28%;
+  left: 38%;
+  font-size: 25px;
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+#box1_rating {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+#box_rating_img img {
+  position: absolute;
+  top: 51.5%;
+  left: 27%;
+  width: 100px;
+  height: 100px;
+}
+#box1_matter {
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+
+/* second box */
+.third_box2 {
+  position: absolute;
+  top: 8.5%;
+  left: 40%;
+  width: 300px;
+  height: 400px;
+}
+#box2_img img {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  opacity: 0.9;
+}
+#red_box2 {
+  position: absolute;
+  top: 0%;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+  background-color: red;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  opacity: 0.7;
+}
+#box_man_img img {
+  position: absolute;
+  top: 7%;
+  left: 38%;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 4px solid white;
+}
+#box_john {
+  position: absolute;
+  top: 28%;
+  left: 34%;
+  font-size: 25px;
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+#box2_rating {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+#box2_img_rating img {
+  position: absolute;
+  top: 51.5%;
+  left: 27%;
+  width: 100px;
+  height: 100px;
+}
+#box2_matter {
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+
+/* third_box */
+.third_box3 {
+  position: absolute;
+  top: 8.5%;
+  left: 67%;
+  width: 300px;
+  height: 400px;
+}
+#box3_img img {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  opacity: 0.9;
+}
+#red_box3 {
+  position: absolute;
+  top: 0%;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+  background-color: red;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  opacity: 0.7;
+}
+#box_man_img img {
+  position: absolute;
+  top: 7%;
+  left: 38%;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 4px solid white;
+}
+#box_pretty_woman_img img {
+  position: absolute;
+  top: 7%;
+  left: 38%;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 4px solid white;
+}
+#box_candy {
+  position: absolute;
+  top: 28%;
+  left: 31%;
+  font-size: 25px;
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+#box3_rating {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+#box3_img_rating img {
+  position: absolute;
+  top: 51.5%;
+  left: 20%;
+  width: 100px;
+  height: 100px;
+}
+#box3_matter {
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+
+/* third_page_end */
+
+.end_third_page {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background-color: rgb(253, 163, 99, 1.5);
+}
+#white_cutting {
+  position: absolute;
+  width: 30%;
+  height: 70%;
+  background-color: white;
+  clip-path: polygon(
+    0% calc(100% - 100%),
+    calc(100% - 100%) 0%,
+    100% calc(100% - 100%),
+    100% 0%,
+    0% 100%
+  );
+}
+/* third--content--left */
+#end_form_left {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  width: 350px;
+  height: 400px;
+  border: 2px solid red;
+  margin-top: -19px;
+  background-color: white;
+  border-radius: 20px;
+}
+#left_get_ebook {
+  position: absolute;
+  top: 10%;
+  left: 18%;
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: "Lato", sans-serif;
+}
+#your_name {
+  position: absolute;
+  top: 39%;
+  left: 15%;
+}
+#company_mail {
+  position: absolute;
+  top: 55%;
+  left: 15%;
+}
+input {
+  border-radius: 20px;
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+  border: 1px solid slategrey;
+}
+#Download_button button {
+  position: absolute;
+  top: 75%;
+  left: 17%;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  padding-right: 40px;
+  padding-left: 20px;
+  border-radius: 30px;
+  font-family: "Lato", sans-serif;
+  background-color: orange;
+  color: white;
+  border: none;
+}
+
+/* .end_contact_right */
+
+.end_contact_right {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  width: 25%;
+  height: 400px;
+}
+#right_say_hi {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(218, 144, 6);
+}
+#right_contact {
+  position: absolute;
+  top: 22%;
+  left: 10%;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+#right_location img {
+  position: absolute;
+  top: 33%;
+  left: 10%;
+  width: 25px;
+  height: 25px;
+}
+#right_london {
+  position: absolute;
+  top: 34%;
+  left: 19%;
+  font-family: "Lato", sans-serif;
+  color: white;
+  font-size: 17px;
+}
+#right_number {
+  position: absolute;
+  top: 43%;
+  left: 11%;
+  font-size: 23px;
+  color: white;
+}
+#right_info {
+  position: absolute;
+  top: 52%;
+  left: 10%;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  color: white;
+}
+#right_social {
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  font-family: "Lato", sans-serif;
+  font-size: 25px;
+  color: rgb(164, 109, 8);
+  font-weight: bold;
+}
+#instagram img {
+  position: absolute;
+  top: 80%;
+  left: 10%;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+}
+#twitter img {
+  position: absolute;
+  top: 80%;
+  left: 25%;
+  width: 40px;
+  height: 40px;
+}
+#facebook img {
+  position: absolute;
+  top: 80%;
+  left: 40%;
+  width: 40px;
+  height: 40px;
+}
+#whatsapp img {
+  position: absolute;
+  top: 80%;
+  left: 55%;
+  width: 40px;
+  height: 40px;
+}
+#Copyright {
+  position: absolute;
+  top: 95%;
+  left: 10%;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  color: white;
+}
+#designed {
+  position: absolute;
+  top: 103%;
+  left: 10%;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  color: rgb(195, 63, 63, 0.8);
+}
+
+/* navbar__start */
+.sidenav {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding: 60px;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: orange;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a:hover {
+  color: orange;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 10px;
+  right: 50px;
+  font-size: 36px;
+  margin-left: 50px;
+  z-index: 1;
+}
+#nav {
+  float: right;
+  z-index: 2;
+  background-color: transparent;
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  
+}
+
+/*------------ media--course -------------------*/
+
+@media (width < 700px) {
+  #ebook_intro {
+    left: 5%;
+    font-size: 20px;
+  }
+  #busines_img img {
+    height: 80vh;
   }
 
-
-  #second_left_end{
-      width: 60%;
-      top: 0%;
-      left: 20%;
+  #ebook_page {
+    left: 5%;
+    font-size: 25px;
+  }
+  #ebook_more {
+    left: 5%;
+    top: 45%;
+  }
+  #ebook_meet {
+    top: 50%;
+    left: 5%;
+  }
+  #ebook_online img {
+    height: 500px;
+    width: 40%;
+    right: 3%;
+    top: 34%;
   }
 
-
-  #second_right_end{
-      width: 70%;
-      top: 55%;
-      left: 20%;
+  #man_img img {
+    /* top: 66%;
+        left: 40px; */
+    display: none;
   }
-  .third_page_boxs{
+  #woman_img2 img {
+    /* top: 66%;
+        left: 80px; */
+    display: none;
+  }
+  #man_img2 img {
+    /* top: 66%;
+        left: 120px; */
+    display: none;
+  }
+  #woman_img img {
+    display: none;
+  }
+  #ebook_rating {
+    /* bottom: 4.6%; */
+    /* top: 75%;
+        left: 5%;
+        font-size: 25px; */
+    display: none;
+  }
+  .ebook_rating img {
+    /* bottom: 3%; */
+    /* top: 73%;
+        left: 17%;
+        width: 70px;
+        height: 70px; */
+    display: none;
+  }
+  #rating_rws {
+    /* bottom: 5.5%; */
+    /* top: 76%;
+        left: 40%;
+        font-size: 10px; */
+    display: none;
+  }
+  .g {
+    border: none !important;
+  }
+
+  /* <!-- first_page_end_part --> */
+  .tablet_page {
+    width: 100%;
+    height: 1000px !important;
+    margin-top: 40px;
+  }
+
+  .tablet_1 img {
+    left: 0%;
+    top: 0%;
+    width: 80%;
+    height: 40%;
+  }
+
+  .tablet_2 {
+    top: 40%;
+    left: 0%;
+    width: 100%;
+    height: 40%;
+  }
+
+  #tablet_creative {
+    top: 5%;
+    left: 5%;
+  }
+
+  #tablet_book {
+    top: 20%;
+    left: 5%;
+  }
+
+  #tablet_content {
+    top: 50%;
+    left: 5%;
+  }
+  /* .second_page */
+  .second_page {
+    height: 200px;
+  }
+
+  .second_page h2 {
+    line-height: normal;
+  }
+  /* .second-page-intro */
+  .second-page-intro {
+    width: 100%;
+    height: 1200px;
+  }
+  #intro_left {
+    top: 5%;
+    left: 5%;
+  }
+
+  .intro_right {
+    width: 100%;
+    height: 600px;
+    top: 40%;
+    left: 0%;
+  }
+
+  #right-head {
+    top: 8%;
+    left: 5%;
+  }
+
+  #right_p2 {
+    top: 35%;
+    left: 3%;
+    padding: 3%;
+    text-align: justify;
+  }
+
+  #right_quotation_mark img {
+    width: 20px;
+    height: 20px;
+    top: 60%;
+  }
+
+  #right_mark_p3 {
+    top: 59%;
+    left: 5%;
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+  }
+
+  #right_p4 {
+    top: 85%;
+    left: 5%;
+  }
+
+  /* .second_page_end */
+  .second_page_end {
+    width: 100%;
+    height: 1000px;
+  }
+
+  #second_left_end {
+    width: 100%;
+    top: 0%;
+    left: 0%;
+  }
+
+  #second_right_end {
+    width: 100%;
+    top: 52%;
+    left: 0%;
+  }
+
+  #meet1_right {
+    top: 20%;
+    left: 5%;
+  }
+
+  #prof_right {
+    top: 26%;
+    left: 5%;
+  }
+
+  #content_p_right {
+    top: 40%;
+    left: 5%;
+  }
+
+  #content_p2_right {
+    top: 60%;
+    left: 5%;
+  }
+
+  /* .third_page_intro--css */
+  .third_page_intro {
+    width: 100%;
+    height: 150px;
+  }
+
+  #review_third_page {
+    top: 20%;
+    left: 40%;
+  }
+
+  #people_third_page {
+    top: 40%;
+    left: 5%;
+    font-size: 30px;
+  }
+
+  .third_page_boxs {
     height: 1300px !important;
   }
 
-  .third_box1{
+  .third_box1 {
+    top: 2%;
+    left: 8%;
+    width: 300px;
+    height: 400px;
+  }
+
+  .third_box2 {
+    top: 35%;
+    left: 8%;
+    width: 300px;
+    height: 400px;
+  }
+
+  .third_box3 {
+    top: 68%;
+    left: 8%;
+    width: 300px;
+    height: 400px;
+  }
+
+  /* third--page--end */
+  .end_third_page {
+    width: 100vw;
+    height: 900px;
+  }
+
+  #end_form_left {
+    top: 4%;
+    left: 5%;
+    width: 300px !important;
+  }
+  #left_get_ebook {
+    left: 24%;
+    font-size: 30px;
+  }
+
+  .end_contact_right {
+    width: 100%;
+    left: 0%;
+    top: 50%;
+  }
+}
+@media (width > 700px) and (width < 1000px) {
+  #ebook_page {
+    left: 10%;
+    font-size: 30px;
+  }
+  #ebook_meet {
+    left: 30%;
+  }
+  #ebook_more {
+    top: 47%;
+  }
+  #ebook_meet {
+    top: 48%;
+  }
+
+  #ebook_rating {
+    /* bottom: 4.6%;
+            left: 10%; */
+    display: none;
+  }
+  .ebook_rating img {
+    /* bottom: 2%;
+            left: 17%;
+            width: 100px;
+            height: 100px; */
+    display: none;
+  }
+  #rating_rws {
+    /* bottom: 5.8%;
+            left: 30%;
+            font-size: 15px; */
+    display: none;
+  }
+  .g {
+    border: none !important;
+  }
+  .tablet_1 img {
+    left: 0%;
+    top: 0%;
+    width: 40%;
+    /* height: 40%; */
+  }
+  .tablet_2 {
+    top: 20%;
+    left: 40%;
+    width: 60%;
+  }
+  .tablet_page {
+    height: 500px;
+  }
+  .second-page-intro {
+    height: 1400px;
+  }
+
+  #intro_left {
+    left: 30%;
+    top: 5%;
+  }
+  .intro_right {
+    top: 40%;
+    left: 20%;
+    width: 70%;
+    height: 700px;
+  }
+  #right_p4 {
+    top: 80%;
+    left: 20%;
+  }
+  .second_page_end {
+    width: 100%;
+    height: 1000px;
+  }
+
+  #second_left_end {
+    width: 60%;
+    top: 0%;
+    left: 20%;
+  }
+
+  #second_right_end {
+    width: 70%;
+    top: 55%;
+    left: 20%;
+  }
+  .third_page_boxs {
+    height: 1300px !important;
+  }
+
+  .third_box1 {
     top: 2%;
     left: 40%;
   }
 
-
-  .third_box2{
+  .third_box2 {
     top: 35%;
     left: 40%;
-    
   }
-  .third_box3{
+  .third_box3 {
     top: 68%;
     left: 40%;
-    
   }
- /* third--page--end */
- .end_third_page{
-  width: 100%;
-  height: 900px;
-}
+  /* third--page--end */
+  .end_third_page {
+    width: 100%;
+    height: 900px;
+  }
 
+  #end_form_left {
+    top: 10%;
+    left: 20%;
+    width: 350px !important;
+  }
+  #left_get_ebook {
+    /* top: 10%; */
+    left: 24%;
+    font-size: 30px;
+  }
 
-#end_form_left{
-  top: 10%;
-  left:   20%;
-  width: 350px !important;
-}
-#left_get_ebook{
-  /* top: 10%; */
-  left: 24%;
-  font-size: 30px;
-}
-
-
-.end_contact_right{
-   width: 400px;
+  .end_contact_right {
+    width: 400px;
     left: 20%;
     top: 50%;
+  }
 }
-
-
-
+@media (width > 1000px) {
+  #ebook_online img {
+    right: 5%;
+  }
+  .ebook_rating img {
+    left: 35%;
+  }
+  #rating_rws {
+    left: 50%;
+  }
 }
-    @media (width > 1000px) {
-        #ebook_online img{
-            right: 5%;
-                
-            }
-        .ebook_rating img{
-            left: 35%;  
-            } 
-        #rating_rws{
-            left: 50%;
-            }   
-    }
