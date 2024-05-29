@@ -443,6 +443,7 @@ mark {
   left: 10%;
   font-family: "Ubuntu Sans", sans-serif;
   font-size: 18px;
+  
 }
 #content_p2_right {
   position: absolute;
@@ -450,6 +451,7 @@ mark {
   left: 10%;
   font-family: "Ubuntu Sans", sans-serif;
   font-size: 18px;
+  
 }
 /* third_page_intro */
 .third_page_intro {
@@ -925,6 +927,7 @@ input {
   
 }
 
+
 /*------------ media--course -------------------*/
 
 @media (width < 700px) {
@@ -952,7 +955,11 @@ input {
     height: 500px;
     width: 40%;
     right: 3%;
-    top: 34%;
+    top: 40%;
+  }
+  #ebook_orange {
+    height: 247px;
+    
   }
 
   #man_img img {

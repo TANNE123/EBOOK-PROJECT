@@ -20,7 +20,7 @@
   </head>
   <body>
     <!-- e_book_page -->
-    <div class="e_book">
+    <div class="e_book" id="home"  >
       <span id="nav" style="font-size: 30px; cursor: pointer">
         <button type="button" onclick="openNav()">&#9776;</button>
       </span>
@@ -29,12 +29,13 @@
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
           >&times;</a
         >
-        <a href="#">Home</a>
-        <a href="#">The Book</a>
-        <a href="#">Author</a>
-        <a href="#">Reviews</a>
-        <a href="#">Contact</a>
-        <a href="#">Download</a>
+        <a href="#home">Home</a>
+        <a href="#the_book_pages_end">TheBook</a>
+        <a href="#Preview--page">Preview</a>
+        <a href="#Author--pages">Author</a>
+        <a href="#reviews__pages">Reviews</a>
+        <a href="#contact_right">Contact</a>
+        <a href="#Download_button" >Download</a>
       </div>
 
       <div id="busines_img">
@@ -81,7 +82,7 @@
     </div>
 
     <!-- first_page_end_part -->
-    <div class="tablet_page">
+    <div class="tablet_page" id="the_book_pages_end">
       <div class="tablet_1">
         <img src="./tablet-screen-contents.jpg" />
       </div>
@@ -100,14 +101,14 @@
 
     <!-- second_page__start -->
 
-    <div class="second_page">
+    <div class="second_page" id="Preview--page">
       <p>What's inside?</p>
       <h2>Preview at glance</h2>
     </div>
 
     <!-- second-page-intro -->
 
-    <div class="second-page-intro">
+    <div class="second-page-intro" >
       <!-- second-page--left -->
 
       <div id="intro_left">
@@ -150,7 +151,7 @@
 
     <!-- second_page_end_matter -->
 
-    <div class="second_page_end">
+    <div class="second_page_end" id="Author--pages">
       <!-- second_left_end -->
 
       <div id="second_left_end">
@@ -178,14 +179,14 @@
     </div>
 
     <!-- third_page --intro-->
-    <div class="third_page_intro">
+    <div class="third_page_intro" id="reviews__pages">
       <span id="review_third_page">Reviews</span>
       <span id="people_third_page">What people saying....</span>
     </div>
 
     <!-- third_pages_box s -->
 
-    <div class="third_page_boxs">
+    <div class="third_page_boxs" >
       <div class="third_box1">
         <div id="box1_img">
           <img src="./businessman-sitting-by-table-cafe.jpg" />
@@ -244,7 +245,7 @@
 
     <!-- end_third_page -->
 
-    <div class="end_third_page">
+    <div class="end_third_page" >
       <div id="white_cutting"></div>
       <div id="end_form_left">
         <span id="left_get_ebook"
@@ -256,9 +257,12 @@
         <span id="company_mail"
           ><input type="text" placeholder="Your@company.com"
         /></span>
-        <div id="Download_button"><button>Download ebook</button></div>
+        <div id="Download_button" ><button>Download ebook</button></div>
       </div>
-      <div class="end_contact_right">
+
+      <!-- end---page---right -->
+
+      <div class="end_contact_right" id="contact_right">
         <span id="right_say_hi">Say hi and talk to us</span>
         <span id="right_contact">Contact</span>
         <span id="right_location"
